@@ -1,6 +1,6 @@
 package com.wildcodeschool.doctor.model;
 
-public class Doctor {
+class Doctor {
 
     private int number;
     private String name;
@@ -14,7 +14,7 @@ public class Doctor {
     }
 
     public int getNumber() {
-        return number;
+        return this.number;
     }
 
     public void setNumber(int number) {
@@ -22,10 +22,11 @@ public class Doctor {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
         this.name = name;
     }
+    
 }
